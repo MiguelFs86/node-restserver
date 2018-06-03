@@ -20,7 +20,7 @@ process.env.CADUCIDAD_TOKEN = 60 * 60 *24 * 30
 // ======================
 // SEED del token
 // ======================
-process.env.SEED = process.env.SEED || 'este-es-el-seed-desarrollo'
+process.env.SEED = 'este-es-el-seed-desarrollo'
 
 
 // ======================
