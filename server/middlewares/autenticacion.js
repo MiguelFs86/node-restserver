@@ -12,6 +12,7 @@ let verificaToken = (req, res, next) => {
 				ok: false,
 				err: {
 					message: 'Token no valido',
+					err: err,
 					token: token,
 					seed: process.env.SEED
 				}
