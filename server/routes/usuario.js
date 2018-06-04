@@ -37,9 +37,7 @@ app.get('/usuario', verificaToken ,(req, res)=> {
 					usuarios: usuarios,
 					cuantos: conteo
 				});	
-			});
-
-			
+			});	
   		})
 })
 
